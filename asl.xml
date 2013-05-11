@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="ASL" ext="asl sd">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">( ) , . \ { }</Keywords>
+            <Keywords name="Comment">1 2 0//</Keywords>
+            <Keywords name="Words1">AccessAs Acquire Add Alias And Argx BankField Break BreakPoint Buffer Case Concatenate ConcatenateResTemplate CondRefOf Connection Continue CopyObject CreateBitField CreateByteField CreateDWordField CreateField DataTableRegion Debug Decrement Default DefinitionBlock DerefOf Device Device DMA DWordIO DWordMemory DWordSpace EISAID Else Elseif EndDependentFn Event ExtendedIO ExtendedMemory ExtendedMemory ExtendedSpace External Fatal Field FindSetLeftBit FindSetRightBit FixedDMA FixedIO FromBCD Function GpioInt GpioIo I2CSerialBus If Include Increment Index IndexField Interrupt IO IRQ IRQNoFlags LAnd LEqual LGreater LGreaterEqual LLess LLessEqual LNot LNotEqual Load LoadTable Localx LOr Match Memory24 Memory32 Memory32Fixed Method Mid Mod Multiply Mutex Name NAnd NoOp NOr Not Notify Offset ObjectType One Ones OperationRegion Or Package PowerResource Processor QWordIO QWordMemory QWordSpace RawDataBuffer RefOf Register Release Reset ResourceTemplate Return Revision Scope ShiftLeft ShiftRight Signal SizeOf Sleep SPISerialBus Stall StartDependentFn StartDependentFnNoPri Store Subtract Switch ThermalZone Timer ToBSD ToBuffer ToDecimalString ToHexString ToInteger ToString ToUUID UARTSerialBus Unicode Unload VendorLong VendorShort Wait While WordBusNumber WordIO WordSpace XOr Zero</Keywords>
+            <Keywords name="Words2"></Keywords>
+            <Keywords name="Words3"></Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="808080" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
