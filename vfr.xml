@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="VFR" ext="vfr">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">( ) , ;</Keywords>
+            <Keywords name="Comment"> 1/** 2*/ 0//</Keywords>
+            <Keywords name="Words1">typedef guid help classguid class subclass defaultstore prompt name guid varid attribute name guid help questionid image locked formid maptitle mapguid text flags key devicepath formsetguid formid question flags key defaultstore prompt prompt referesh interval varstoredevice refreshguid default value option value flags read write flags keys flags config flags key minimum maximum step minsize maxsize maxcontainers year prompt help varid month day default label banner subtitle title line align timeout guid datatype data match dup ideqval ideqid ideqvalist questionref ruleref stringref pushthis security get flags length questionrefval stringrefval boolval stringval unintval toupper tolower set cond find mid token span map </Keywords>
+            <Keywords name="Words2">formset endif endformset grayoutif suppressif disableif nosubmitif inconsistentif varstore efivarstore namevaluevarstore defaultstore form endform rule endrule goto formmap checkbox endcheckbox action endaction password oneof endpasswordoneof endoneof numeric endnumeric resetbutton endresetbutton string endstring orderedlist endlist date enddate time endtime guidop endguidop </Keywords>
+            <Keywords name="Words3">UINT64 UINT32 UINT16 UINT8 BOOLEAN EFI_STRING_ID EFI_HII_DATE EFI_HII_TIME EFI_HII_REF NON_DEVICE DISK_DEVICE VIDEO_DEVICE NETWORK_DEVICE INPUT_DEVICE ONBOARD_DEVICE OTHER_DEVICE SETUP_APPLICATION GENERAL_APPLICATION FRONT_PAGE SINGLE_USE READ_ONLY INTERACTIVE RESET_REQUIRED OPTIONS_ONLY TRUE FALSE ONE ONES ZERO STRING_TOKEN IMAGE_TOKEN HORIZONTAL OPTION_DEFAULT OPTION_DEFAULT_MFG INTERACTIVE RESET_REQUIRED DEFAULT CHECKBOX_DEFAULT CHECKBOX_DEFAULT_MFG NUMERIC_SIZE_1 NUMERIC_SIZE_2 NUMERIC_SIZE_4 NUMERIC_SIZE_8 DISPLAY_INT_DEC DISPLAY_UINT_DEC DISPLAY_UINT_HEX MULTI_LINE UNIQUE NOEMPTY YEAR_SUPPRESS MONTH_SUPPRESS DAY_SUPPRESS STORAGE_NORMAL STORAGE_TIME STORAGE_WAKEUP TRUE FALSE ONE ONES ZERO UNDEFINED VERSION SENSITIVE INSENSITIVE LAST_NON_MATCH FIRST_NON_MATCH </Keywords>
+            <Keywords name="Words4">NOT OR AND | &amp; == != &lt; &lt;= &gt; &gt;= &lt;&lt; &gt;&gt; + - * / % NOT catenate ~</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="8000FF" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF8040" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
