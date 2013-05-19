@@ -1,0 +1,25 @@
+	// Sample file from tianocore.org
+	date year varid = Date.Year,
+		prompt = STRING_TOKEN(STR_DATE_PROMPT),
+		help = STRING_TOKEN(STR_DATE_YEAR_HELP),
+		minimum = 2003,
+		maximum = 2100,
+		step = 1,
+		default = 2003,
+		
+		month varid = Date.Month
+		prompt = STRING_TOKEN(STR_DATE_PROMPT),
+		help = STRING_TOKEN(STR_DATE_MONTH_HELP),
+		minimum = 1,
+		maximum = 12,
+		step = 1,
+		default = 1,
+		
+		day varid = Date.Day,
+		prompt = STRING_TOKEN(STR_DATE_PROMPT),
+		help = STRING_TOKEN(STR_DATE_DAY_HELP),
+		minimum = 1,
+		maximum = 31,
+		step = 0x1,
+		default = 1,
+	enddate;
