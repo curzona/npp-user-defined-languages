@@ -7,10 +7,10 @@ Installation
 ------------
 To install a language(e.g. asl):
 
-- Download <code>asl.xml</code>
+- Download <b>asl.xml</b>
 - Open Notepad++
-- Open the <code>Define Your Language</code> dialog from the <code>Language</code> menu
-- Click <code>Import</code> and select <code>asl.xml</code>
+- Open the <b>Define Your Language</b> dialog from the <b>Language</b> menu
+- Click <b>Import</b> and select <b>asl.xml</b>
 - Restart Notepad++
 
 Note: These instructions apply to Notepad++ v6.3.3, The User Define Language dialog may be in a different menu in your version of Notepad++.
