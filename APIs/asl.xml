@@ -1,0 +1,1530 @@
+<NotepadPlus>
+  <AutoComplete>
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," />
+    <KeyWord name="AccessAs" func="yes" >
+      <Overload retVal="" >
+        <Param name="AccessType" />
+        <Param name="AccessAttribute" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="AccessType" />
+        <Param name="AccessAttribute" />
+        <Param name="AccessLength" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Acquire" func="yes" >
+      <Overload retVal="Boolean" >
+        <Param name="SyncObject" />
+        <Param name="TimeoutValue" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ActiveBoth" />
+    <KeyWord name="ActiveHigh" />
+    <KeyWord name="ActiveLow" />
+    <KeyWord name="Add" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Addend1" />
+        <Param name="Addend2" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Addend1" />
+        <Param name="Addend2" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="AddressRangeACPI" />
+    <KeyWord name="AddressRangeMemory" />
+    <KeyWord name="AddressRangeNVS" />
+    <KeyWord name="AddressRangeReserved" />
+    <KeyWord name="AddressingMode10Bit" />
+    <KeyWord name="AddressingMode7Bit" />
+    <KeyWord name="Alias" func="yes" >
+      <Overload retVal="" >
+        <Param name="SourceObject" />
+        <Param name="AliasObject" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="And" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="AnyAcc" />
+    <KeyWord name="Arg0" />
+    <KeyWord name="Arg1" />
+    <KeyWord name="Arg2" />
+    <KeyWord name="Arg3" />
+    <KeyWord name="Arg4" />
+    <KeyWord name="Arg5" />
+    <KeyWord name="Arg6" />
+    <KeyWord name="AttribBlock" />
+    <KeyWord name="AttribBlockProcessCall" />
+    <KeyWord name="AttribByte" />
+    <KeyWord name="AttribBytes" />
+    <KeyWord name="AttribProcessCall" />
+    <KeyWord name="AttribQuick" />
+    <KeyWord name="AttribRawBytes" />
+    <KeyWord name="AttribRawProcessBytes" />
+    <KeyWord name="AttribSendReceive" />
+    <KeyWord name="AttribWord" />
+    <KeyWord name="BankField" />
+    <KeyWord name="BigEndianing" />
+    <KeyWord name="Break" />
+    <KeyWord name="BreakPoint" />
+    <KeyWord name="BuffFieldObj" />
+    <KeyWord name="BuffObj" />
+    <KeyWord name="Buffer" func="yes" >
+      <Overload retVal="Buffer" >
+        <Param name="BufferSize" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="BufferAcc" />
+    <KeyWord name="BusMaster" />
+    <KeyWord name="ByteAcc" />
+    <KeyWord name="Cacheable" />
+    <KeyWord name="Case" func="yes" >
+      <Overload retVal="" >
+        <Param name="Value" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ClockPhaseFirst" />
+    <KeyWord name="ClockPhaseSecond" />
+    <KeyWord name="ClockPolarityHigh" />
+    <KeyWord name="ClockPolarityLow" />
+    <KeyWord name="Concatenate" func="yes" >
+      <Overload retVal="ComputationalData" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+      <Overload retVal="ComputationalData" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ConcatenateResTemplate" func="yes" >
+      <Overload retVal="Buffer" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+      <Overload retVal="Buffer" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="CondRefOf" func="yes" >
+      <Overload retVal="Boolean" >
+        <Param name="Source" />
+      </Overload>
+      <Overload retVal="Boolean" >
+        <Param name="Source" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Connection" func="yes" >
+      <Overload retVal="" >
+        <Param name="ConnectionResourceObj" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Continue" />
+    <KeyWord name="ControllerInitiated" />
+    <KeyWord name="CopyObject" />
+    <KeyWord name="CreateBitField" func="yes" >
+      <Overload retVal="" >
+        <Param name="SourceBuffer" />
+        <Param name="BitIndex" />
+        <Param name="BitFieldName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="CreateByteField" func="yes" >
+      <Overload retVal="" >
+        <Param name="SourceBuffer" />
+        <Param name="ByteIndex" />
+        <Param name="ByteFieldName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="CreateDWordField" func="yes" >
+      <Overload retVal="" >
+        <Param name="SourceBuffer" />
+        <Param name="ByteIndex" />
+        <Param name="DWordFieldName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="CreateField" func="yes" >
+      <Overload retVal="" >
+        <Param name="SourceBuffer" />
+        <Param name="BitIndex" />
+        <Param name="NumBits" />
+        <Param name="FieldName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="CreateQWordField" func="yes" >
+      <Overload retVal="" >
+        <Param name="SourceBuffer" />
+        <Param name="ByteIndex" />
+        <Param name="QWordFieldName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="CreateWordField" func="yes" >
+      <Overload retVal="" >
+        <Param name="SourceBuffer" />
+        <Param name="ByteIndex" />
+        <Param name="WordFieldName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="DDBHandleObj" />
+    <KeyWord name="DMA" func="yes" >
+      <Overload retVal="Buffer" >
+        <Param name="DmaType" />
+        <Param name="IsBusMaster" />
+        <Param name="DmaTransferSize" />
+      </Overload>
+      <Overload retVal="Buffer" >
+        <Param name="DmaType" />
+        <Param name="IsBusMaster" />
+        <Param name="DmaTransferSize" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="DWordAcc" />
+    <KeyWord name="DWordIO" func="yes" >
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Decode" />
+        <Param name="ISARanges" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Decode" />
+        <Param name="ISARanges" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceSource" />
+        <Param name="DescriptorName" />
+        <Param name="TranslationType" />
+        <Param name="TranslationDensity" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="DWordMemory" func="yes" >
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Cacheable" />
+        <Param name="ReadAndWrite" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Cacheable" />
+        <Param name="ReadAndWrite" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceSource" />
+        <Param name="DescriptorName" />
+        <Param name="MemoryType" />
+        <Param name="TranslationType" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="DWordSpace" func="yes" >
+      <Overload retVal="" >
+        <Param name="ResourceType" />
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="TypeSpecificFlags" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ResourceType" />
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="TypeSpecificFlags" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceSource" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="DataBitsEight" />
+    <KeyWord name="DataBitsFive" />
+    <KeyWord name="DataBitsNine" />
+    <KeyWord name="DataBitsSeven" />
+    <KeyWord name="DataBitsSix" />
+    <KeyWord name="DataTableRegion" func="yes" >
+      <Overload retVal="" >
+        <Param name="RegionName" />
+        <Param name="SignatureString" />
+        <Param name="OemIDString" />
+        <Param name="OemTableIDString" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Debug" />
+    <KeyWord name="Decode10" />
+    <KeyWord name="Decode16" />
+    <KeyWord name="Decrement" />
+    <KeyWord name="Default" />
+    <KeyWord name="DefinitionBlock" />
+    <KeyWord name="DenseTranslation" />
+    <KeyWord name="DerefOf" func="yes" >
+      <Overload retVal="Object" >
+        <Param name="Source" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Device" func="yes" >
+      <Overload retVal="" >
+        <Param name="DeviceName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="DeviceInitiated" />
+    <KeyWord name="DeviceObj" />
+    <KeyWord name="Divide" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Dividend" />
+        <Param name="Divisor" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Dividend" />
+        <Param name="Divisor" />
+        <Param name="Remainder" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="EISAID" func="yes" >
+      <Overload retVal="DWordConst" >
+        <Param name="EisaIdString" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Edge" />
+    <KeyWord name="Else" />
+    <KeyWord name="ElseIf" func="yes" >
+      <Overload retVal="" >
+        <Param name="Predicate" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="EmbeddedControl" />
+    <KeyWord name="EndDependentFn" func="yes" >
+      <Overload retVal="Buffer" >
+      </Overload>
+    </KeyWord>
+    <KeyWord name="EntireRange" />
+    <KeyWord name="Event" func="yes" >
+      <Overload retVal="" >
+        <Param name="EventName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="EventObj" />
+    <KeyWord name="Exclusive" />
+    <KeyWord name="ExclusiveAndWake" />
+    <KeyWord name="ExtendedIO" func="yes" >
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Decode" />
+        <Param name="ISARanges" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Decode" />
+        <Param name="ISARanges" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+        <Param name="TypeSpecificAttributes" />
+        <Param name="DescriptorName" />
+        <Param name="TranslationType" />
+        <Param name="TranslationDensity" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ExtendedMemory" func="yes" >
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Cacheable" />
+        <Param name="ReadAndWrite" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Cacheable" />
+        <Param name="ReadAndWrite" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+        <Param name="TypeSpecificAttributes" />
+        <Param name="DescriptorName" />
+        <Param name="MemoryType" />
+        <Param name="TranslationType" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ExtendedSpace" func="yes" >
+      <Overload retVal="" >
+        <Param name="ResourceType" />
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="TypeSpecificFlags" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ResourceType" />
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="TypeSpecificFlags" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+        <Param name="TypeSpecificAttributes" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="External" func="yes" >
+      <Overload retVal="" >
+        <Param name="ObjectName" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ObjectName" />
+        <Param name="ObjectType" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ObjectName" />
+        <Param name="ObjectType" />
+        <Param name="ReturnType" />
+        <Param name="ParameterTypes" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="FFixedHW" />
+    <KeyWord name="Fatal" func="yes" >
+      <Overload retVal="" >
+        <Param name="Type" />
+        <Param name="Code" />
+        <Param name="Arg" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Field" func="yes" >
+      <Overload retVal="" >
+        <Param name="RegionName" />
+        <Param name="AccessType" />
+        <Param name="LockRule" />
+        <Param name="UpdateRule" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="FieldUnitObj" />
+    <KeyWord name="FindSetLeftBit" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Source" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Source" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="FindSetRightBit" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Source" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Source" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="FixedDMA" func="yes" >
+      <Overload retVal="Buffer" >
+        <Param name="DmaRequestLine" />
+        <Param name="Channel" />
+      </Overload>
+      <Overload retVal="Buffer" >
+        <Param name="DmaRequestLine" />
+        <Param name="Channel" />
+        <Param name="DmaTransferWidth" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="FixedIO" func="yes" >
+      <Overload retVal="Buffer" >
+        <Param name="AddressBase" />
+        <Param name="RangeLength" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="FlowControlHardware" />
+    <KeyWord name="FlowControlNone" />
+    <KeyWord name="FlowControlXon" />
+    <KeyWord name="FourWireMode" />
+    <KeyWord name="FromBCD" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="BCDValue" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Function" func="yes" >
+      <Overload retVal="" >
+        <Param name="FunctionName" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="FunctionName" />
+        <Param name="ReturnType" />
+        <Param name="ParameterTypes" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="GeneralPurposeIO" />
+    <KeyWord name="GenericSerialBus" />
+    <KeyWord name="GpioInt" func="yes" >
+      <Overload retVal="" >
+        <Param name="EdgeLevel" />
+        <Param name="ActiveLevel" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="EdgeLevel" />
+        <Param name="ActiveLevel" />
+        <Param name="Shared" />
+        <Param name="PinConfig" />
+        <Param name="DebounceTimeout" />
+        <Param name="ResourceSource" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceUsage" />
+        <Param name="DescriptorName" />
+        <Param name="VendorData" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="GpioIo" func="yes" >
+      <Overload retVal="" >
+        <Param name="Shared" />
+        <Param name="PinConfig" />
+        <Param name="DebounceTimeout" />
+        <Param name="DriveStrength" />
+        <Param name="IORestriction" />
+        <Param name="ResourceSource" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceUsage" />
+        <Param name="DescriptorName" />
+        <Param name="VendorData" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="I2CSerialBus" func="yes" >
+      <Overload retVal="" >
+        <Param name="SlaveAddress" />
+        <Param name="SlaveMode" />
+        <Param name="ConnectionSpeed" />
+        <Param name="AddressingMode" />
+        <Param name="ResourceSource" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="SlaveAddress" />
+        <Param name="SlaveMode" />
+        <Param name="ConnectionSpeed" />
+        <Param name="AddressingMode" />
+        <Param name="ResourceSource" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceUsage" />
+        <Param name="DescriptorName" />
+        <Param name="VendorData" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="IO" func="yes" >
+      <Overload retVal="Buffer" >
+        <Param name="Decode" />
+        <Param name="AddressMin" />
+        <Param name="AddressMax" />
+        <Param name="AddressAlignment" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="Buffer" >
+        <Param name="Decode" />
+        <Param name="AddressMin" />
+        <Param name="AddressMax" />
+        <Param name="AddressAlignment" />
+        <Param name="RangeLength" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="IPMI" />
+    <KeyWord name="IRQ" func="yes" >
+      <Overload retVal="Buffer" >
+        <Param name="EdgeLevel" />
+        <Param name="ActiveLevel" />
+        <Param name="Shared" />
+      </Overload>
+      <Overload retVal="Buffer" >
+        <Param name="EdgeLevel" />
+        <Param name="ActiveLevel" />
+        <Param name="Shared" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="IRQNoFlags" func="yes" >
+      <Overload retVal="Buffer" >
+      </Overload>
+      <Overload retVal="Buffer" >
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ISAOnlyRanges" />
+    <KeyWord name="If" func="yes" >
+      <Overload retVal="" >
+        <Param name="Predicate" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Include" func="yes" >
+      <Overload retVal="" >
+        <Param name="FilePathName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Increment" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Addend" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Index" func="yes" >
+      <Overload retVal="ObjectReference" >
+        <Param name="Source" />
+        <Param name="Index" />
+      </Overload>
+      <Overload retVal="ObjectReference" >
+        <Param name="Source" />
+        <Param name="Index" />
+        <Param name="Destination" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="IndexField" func="yes" >
+      <Overload retVal="" >
+        <Param name="IndexName" />
+        <Param name="DataName" />
+        <Param name="AccessType" />
+        <Param name="LockRule" />
+        <Param name="UpdateRule" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="IntObj" />
+    <KeyWord name="Interrupt" func="yes" >
+      <Overload retVal="Buffer" >
+        <Param name="ResourceUsage" />
+        <Param name="EdgeLevel" />
+        <Param name="ActiveLevel" />
+        <Param name="Shared" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceSource" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="IoRestrictionInputOnly" />
+    <KeyWord name="IoRestrictionNone" />
+    <KeyWord name="IoRestrictionNoneAndPreserve" />
+    <KeyWord name="IoRestrictionOutputOnly" />
+    <KeyWord name="LAnd" func="yes" >
+      <Overload retVal="Boolean" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="LEqual" func="yes" >
+      <Overload retVal="Boolean" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="LGreater" func="yes" >
+      <Overload retVal="Boolean" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="LGreaterEqual" func="yes" >
+      <Overload retVal="Boolean" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="LLess" func="yes" >
+      <Overload retVal="Boolean" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="LLessEqual" func="yes" >
+      <Overload retVal="Boolean" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="LNot" func="yes" >
+      <Overload retVal="Boolean" >
+        <Param name="Source" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="LNotEqual" func="yes" >
+      <Overload retVal="Boolean" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="LOr" />
+    <KeyWord name="Level" />
+    <KeyWord name="LittleEndian" />
+    <KeyWord name="Load" func="yes" >
+      <Overload retVal="" >
+        <Param name="Object" />
+        <Param name="DDBHandle" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="LoadTable" func="yes" >
+      <Overload retVal="DDBHandle" >
+        <Param name="SignatureString" />
+        <Param name="OEMIDString" />
+        <Param name="OEMTableIDString" />
+        <Param name="RootPathString" />
+        <Param name="ParameterPathString" />
+        <Param name="ParameterData" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Local0" />
+    <KeyWord name="Local1" />
+    <KeyWord name="Local2" />
+    <KeyWord name="Local3" />
+    <KeyWord name="Local4" />
+    <KeyWord name="Local5" />
+    <KeyWord name="Local6" />
+    <KeyWord name="Local7" />
+    <KeyWord name="Lock" />
+    <KeyWord name="MEQ" />
+    <KeyWord name="MGE" />
+    <KeyWord name="MGT" />
+    <KeyWord name="MLE" />
+    <KeyWord name="MLT" />
+    <KeyWord name="MTR" />
+    <KeyWord name="Match" />
+    <KeyWord name="MaxFixed" />
+    <KeyWord name="MaxNotFixed" />
+    <KeyWord name="Memory24" func="yes" >
+      <Overload retVal="" >
+        <Param name="ReadAndWrite" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressAlignment" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ReadAndWrite" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressAlignment" />
+        <Param name="RangeLength" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Memory32" func="yes" >
+      <Overload retVal="" >
+        <Param name="ReadAndWrite" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressAlignment" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ReadAndWrite" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressAlignment" />
+        <Param name="RangeLength" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Memory32Fixed" func="yes" >
+      <Overload retVal="" >
+        <Param name="ReadAndWrite" />
+        <Param name="AddressBase" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ReadAndWrite" />
+        <Param name="AddressBase" />
+        <Param name="RangeLength" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Method" func="yes" >
+      <Overload retVal="" >
+        <Param name="MethodName" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="MethodName" />
+        <Param name="NumArgs" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="MethodName" />
+        <Param name="NumArgs" />
+        <Param name="SerializeRule" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="MethodName" />
+        <Param name="NumArgs" />
+        <Param name="SerializeRule" />
+        <Param name="SyncLevel" />
+        <Param name="ReturnType" />
+        <Param name="ParameterTypes" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="MethodObj" />
+    <KeyWord name="Mid" func="yes" >
+      <Overload retVal="Buffer or String" >
+        <Param name="Source" />
+        <Param name="Index" />
+        <Param name="Length" />
+      </Overload>
+      <Overload retVal="Buffer or String" >
+        <Param name="Source" />
+        <Param name="Index" />
+        <Param name="Length" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="MinFixed" />
+    <KeyWord name="MinNotFixed" />
+    <KeyWord name="Mod" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Dividend" />
+        <Param name="Divisor" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Dividend" />
+        <Param name="Divisor" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Multiply" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Multiplicand" />
+        <Param name="Multiplier" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Multiplicand" />
+        <Param name="Multiplier" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Mutex" func="yes" >
+      <Overload retVal="" >
+        <Param name="MutexName" />
+        <Param name="SyncLevel" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="MutexObj" />
+    <KeyWord name="NAnd" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="NOr" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Name" func="yes" >
+      <Overload retVal="" >
+        <Param name="ObjectName" />
+        <Param name="Object" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="NoLock" />
+    <KeyWord name="NoOp" />
+    <KeyWord name="NonCacheable" />
+    <KeyWord name="NonISAOnlyRanges" />
+    <KeyWord name="Not" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Source" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Source" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="NotBusMaster" />
+    <KeyWord name="NotSerialized" />
+    <KeyWord name="Notify" func="yes" >
+      <Overload retVal="" >
+        <Param name="Object" />
+        <Param name="NotificationValue" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ObjectType" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Object" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Offset" func="yes" >
+      <Overload retVal="" >
+        <Param name="ByteOffset" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="One" />
+    <KeyWord name="Ones" />
+    <KeyWord name="OpRegionObj" />
+    <KeyWord name="OperationRegion" func="yes" >
+      <Overload retVal="" >
+        <Param name="RegionName" />
+        <Param name="RegionSpace" />
+        <Param name="Offset" />
+        <Param name="Length" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Or" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="PCC" />
+    <KeyWord name="PCI_Config" />
+    <KeyWord name="Package" func="yes" >
+      <Overload retVal="Package" >
+        <Param name="NumElements" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ParityTypeEven" />
+    <KeyWord name="ParityTypeMark" />
+    <KeyWord name="ParityTypeNone" />
+    <KeyWord name="ParityTypeOdd" />
+    <KeyWord name="ParityTypeSpace" />
+    <KeyWord name="PciBarTarget" />
+    <KeyWord name="PkgObj" />
+    <KeyWord name="PolarityHigh" />
+    <KeyWord name="PolarityLow" />
+    <KeyWord name="PosDecode" />
+    <KeyWord name="PowerResObj" />
+    <KeyWord name="PowerResource" func="yes" >
+      <Overload retVal="" >
+        <Param name="ResourceName" />
+        <Param name="SystemLevel" />
+        <Param name="ResourceOrder" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Prefetchable" />
+    <KeyWord name="Preserve" />
+    <KeyWord name="Processor" func="yes" >
+      <Overload retVal="" >
+        <Param name="ProcessorName" />
+        <Param name="ProcessorID" />
+        <Param name="PBlockAddress" />
+        <Param name="PblockLength" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ProcessorObj" />
+    <KeyWord name="PullDefault" />
+    <KeyWord name="PullDown" />
+    <KeyWord name="PullNone" />
+    <KeyWord name="PullUp" />
+    <KeyWord name="QWordAcc" />
+    <KeyWord name="QWordIO" func="yes" >
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Decode" />
+        <Param name="ISARanges" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Decode" />
+        <Param name="ISARanges" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceSource" />
+        <Param name="DescriptorName" />
+        <Param name="TranslationType" />
+        <Param name="TranslationDensity" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="QWordMemory" func="yes" >
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Cacheable" />
+        <Param name="ReadAndWrite" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Cacheable" />
+        <Param name="ReadAndWrite" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceSource" />
+        <Param name="DescriptorName" />
+        <Param name="MemoryType" />
+        <Param name="TranslationType" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="QWordSpace" func="yes" >
+      <Overload retVal="" >
+        <Param name="ResourceType" />
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="TypeSpecificFlags" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ResourceType" />
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="TypeSpecificFlags" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceSource" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="RawDataBuffer" func="yes" >
+      <Overload retVal="RawDataBuffer" >
+        <Param name="RDBufferSize" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ReadOnly" />
+    <KeyWord name="ReadWrite" />
+    <KeyWord name="RefOf" func="yes" >
+      <Overload retVal="ObjectReference" >
+        <Param name="Object" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="RegionSpaceKeyword" />
+    <KeyWord name="Register" func="yes" >
+      <Overload retVal="" >
+        <Param name="AddressSpaceKeyword" />
+        <Param name="RegisterBitWidth" />
+        <Param name="RegisterBitOffset" />
+        <Param name="RegisterAddress" />
+        <Param name="AccessSize" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="AddressSpaceKeyword" />
+        <Param name="RegisterBitWidth" />
+        <Param name="RegisterBitOffset" />
+        <Param name="RegisterAddress" />
+        <Param name="AccessSize" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Release" func="yes" >
+      <Overload retVal="" >
+        <Param name="SyncObject" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Reset" func="yes" >
+      <Overload retVal="" >
+        <Param name="SyncObject" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ResourceConsumer" />
+    <KeyWord name="ResourceProducer" />
+    <KeyWord name="ResourceTemplate" func="yes" >
+      <Overload retVal="Buffer" >
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Return" func="yes" >
+      <Overload retVal="" >
+      </Overload>
+      <Overload retVal="" >
+        <Param name="Arg" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Revision" />
+    <KeyWord name="SMBus" />
+    <KeyWord name="SPISerialBus" func="yes" >
+      <Overload retVal="" >
+        <Param name="DeviceSelection" />
+        <Param name="DeviceSelectionPolarity" />
+        <Param name="WireMode" />
+        <Param name="DataBitLength" />
+        <Param name="SlaveMode" />
+        <Param name="ConnectionSpeed" />
+        <Param name="ClockPolarity" />
+        <Param name="ClockPhase" />
+        <Param name="ResourceSource" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="DeviceSelection" />
+        <Param name="DeviceSelectionPolarity" />
+        <Param name="WireMode" />
+        <Param name="DataBitLength" />
+        <Param name="SlaveMode" />
+        <Param name="ConnectionSpeed" />
+        <Param name="ClockPolarity" />
+        <Param name="ClockPhase" />
+        <Param name="ResourceSource" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceUsage" />
+        <Param name="DescriptorName" />
+        <Param name="VendorData" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Scope" func="yes" >
+      <Overload retVal="" >
+        <Param name="Location" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Serialized" />
+    <KeyWord name="Shared" />
+    <KeyWord name="SharedAndWake" />
+    <KeyWord name="ShiftLeft" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Source" />
+        <Param name="ShiftCount" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Source" />
+        <Param name="ShiftCount" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ShiftRight" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Source" />
+        <Param name="ShiftCount" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Source" />
+        <Param name="ShiftCount" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Signal" func="yes" >
+      <Overload retVal="" >
+        <Param name="SyncObject" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="SizeOf" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="ObjectName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Sleep" func="yes" >
+      <Overload retVal="" >
+        <Param name="MilliSeconds" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="SparseTranslation" />
+    <KeyWord name="Stall" func="yes" >
+      <Overload retVal="" >
+        <Param name="MicroSeconds" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="StartDependentFn" func="yes" >
+      <Overload retVal="" >
+        <Param name="CompatibilityPriority" />
+        <Param name="PerformancePriority" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="StartDependentFnNoPri" func="yes" >
+      <Overload retVal="" >
+      </Overload>
+    </KeyWord>
+    <KeyWord name="StopBitsOne" />
+    <KeyWord name="StopBitsOnePlusHalf" />
+    <KeyWord name="StopBitsTwo" />
+    <KeyWord name="StopBitsZero" />
+    <KeyWord name="Store" func="yes" >
+      <Overload retVal="" >
+        <Param name="Source" />
+        <Param name="Destination" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="StrObj" />
+    <KeyWord name="SubDecode" />
+    <KeyWord name="Subtract" func="yes" >
+      <Overload retVal="" >
+        <Param name="Minuend" />
+        <Param name="Subtrahend" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="Minuend" />
+        <Param name="Subtrahend" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Switch" func="yes" >
+      <Overload retVal="" >
+        <Param name="Expression" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="SystemCMOS" />
+    <KeyWord name="SystemIO" />
+    <KeyWord name="SystemMemory" />
+    <KeyWord name="ThermalZone" func="yes" >
+      <Overload retVal="" >
+        <Param name="ThermalZoneName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ThermalZoneObj" />
+    <KeyWord name="ThreeWireMode" />
+    <KeyWord name="Timer" />
+    <KeyWord name="ToBCD" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Value" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Value" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ToBuffer" func="yes" >
+      <Overload retVal="Buffer" >
+        <Param name="Data" />
+      </Overload>
+      <Overload retVal="Buffer" >
+        <Param name="Data" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ToDecimalString" func="yes" >
+      <Overload retVal="String" >
+        <Param name="Data" />
+      </Overload>
+      <Overload retVal="String" >
+        <Param name="Data" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ToHexString" func="yes" >
+      <Overload retVal="String" >
+        <Param name="Data" />
+      </Overload>
+      <Overload retVal="String" >
+        <Param name="Data" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ToInteger" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Data" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Data" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ToString" func="yes" >
+      <Overload retVal="String" >
+        <Param name="Source" />
+        <Param name="Length" />
+      </Overload>
+      <Overload retVal="String" >
+        <Param name="Source" />
+        <Param name="Length" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ToUUID" func="yes" >
+      <Overload retVal="Buffer" >
+        <Param name="AsciiString" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Transfer16" />
+    <KeyWord name="Transfer8" />
+    <KeyWord name="Transfer8_16" />
+    <KeyWord name="TypeStatic" />
+    <KeyWord name="TypeTranslation" />
+    <KeyWord name="UARTSerialBus" func="yes" >
+      <Overload retVal="" >
+        <Param name="InitialBaudRate" />
+        <Param name="BitsPerByte" />
+        <Param name="StopBits" />
+        <Param name="LinesInUse" />
+        <Param name="IsBigEndian" />
+        <Param name="Parity" />
+        <Param name="FlowControl" />
+        <Param name="ReceiveBufferSize" />
+        <Param name="TransmitBufferSize" />
+        <Param name="ResourceSource" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="InitialBaudRate" />
+        <Param name="BitsPerByte" />
+        <Param name="StopBits" />
+        <Param name="LinesInUse" />
+        <Param name="IsBigEndian" />
+        <Param name="Parity" />
+        <Param name="FlowControl" />
+        <Param name="ReceiveBufferSize" />
+        <Param name="TransmitBufferSize" />
+        <Param name="ResourceSource" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceUsage" />
+        <Param name="DescriptorName" />
+        <Param name="VendorData" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Unicode" func="yes" >
+      <Overload retVal="Buffer" >
+        <Param name="String" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="UnknownObj" />
+    <KeyWord name="Unload" func="yes" >
+      <Overload retVal="" >
+        <Param name="Handle" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="UserDefRegionSpace" />
+    <KeyWord name="VendorLong" func="yes" >
+      <Overload retVal="" >
+      </Overload>
+      <Overload retVal="" >
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="VendorShort" func="yes" >
+      <Overload retVal="" >
+      </Overload>
+      <Overload retVal="" >
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Wait" func="yes" >
+      <Overload retVal="" >
+        <Param name="SyncObject" />
+        <Param name="TimeoutValue" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="While" func="yes" >
+      <Overload retVal="" >
+        <Param name="Predicate" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Width128Bit" />
+    <KeyWord name="Width16Bit" />
+    <KeyWord name="Width256Bit" />
+    <KeyWord name="Width32Bit" />
+    <KeyWord name="Width64Bit" />
+    <KeyWord name="Width8Bit" />
+    <KeyWord name="WordAcc" />
+    <KeyWord name="WordBusNumber" func="yes" >
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Decode" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Decode" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceSource" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="WordIO" func="yes" >
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Decode" />
+        <Param name="ISARanges" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ResourceUsage" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="Decode" />
+        <Param name="ISARanges" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceSource" />
+        <Param name="DescriptorName" />
+        <Param name="TranslationType" />
+        <Param name="TranslationDensity" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="WordSpace" func="yes" >
+      <Overload retVal="" >
+        <Param name="ResourceType" />
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="TypeSpecificFlags" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+      </Overload>
+      <Overload retVal="" >
+        <Param name="ResourceType" />
+        <Param name="ResourceUsage" />
+        <Param name="Decode" />
+        <Param name="IsMinFixed" />
+        <Param name="IsMaxFixed" />
+        <Param name="TypeSpecificFlags" />
+        <Param name="AddressGranularity" />
+        <Param name="AddressMinimum" />
+        <Param name="AddressMaximum" />
+        <Param name="AddressTranslation" />
+        <Param name="RangeLength" />
+        <Param name="ResourceSourceIndex" />
+        <Param name="ResourceSource" />
+        <Param name="DescriptorName" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="WriteAsOnes" />
+    <KeyWord name="WriteAsZeros" />
+    <KeyWord name="WriteCombining" />
+    <KeyWord name="XOr" func="yes" >
+      <Overload retVal="Integer" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+      </Overload>
+      <Overload retVal="Integer" >
+        <Param name="Source1" />
+        <Param name="Source2" />
+        <Param name="Result" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Zero" />
+  </AutoComplete>
+</NotepadPlus>
