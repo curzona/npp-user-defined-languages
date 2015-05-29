@@ -1,5 +1,5 @@
 <NotepadPlus>
-    <UserLang name="VFR" ext="vfr">
+    <UserLang name="VFR" ext="vfr hfr sd">
         <Settings>
             <Global caseIgnored="no" />
             <TreatAsSymbol comment="no" commentLine="no" />
